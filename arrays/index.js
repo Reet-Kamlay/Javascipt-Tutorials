@@ -1,0 +1,13 @@
+let num=[1,2,3,4,5]
+let b=num.toString()
+console.log(b)
+let c=num.join("_")
+console.log(c,typeof c)
+let r=num.pop()
+console.log(num,r)
+let t=num.push(7)
+console.log(num,t)
+let s=num.shift()
+console.log(s,num)
+let u=num.unshift(8)
+console.log(u,num)
